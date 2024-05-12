@@ -1,6 +1,6 @@
 * {
     font-family: "nanumSquareNeo";
-    text-align: center;
+    font-weight: normal;
     margin: 0;
     padding: 0;
 }
@@ -12,12 +12,12 @@ h1 {
 
 #header .logo,
 #header .nav,
-#footer .footer1 {
+#footer .footer2 {
     line-height: 100px;
 }
 
-#footer .footer2,
-#footer .footer3 {
+#footer .footer1-1,
+#footer .footer1-2 {
     line-height: 50px;
 }
 
@@ -36,9 +36,7 @@ h1 {
     margin: 0 auto;
 }
 
-#header, 
-#contents, 
-#footer {
+#header, #contents, #footer {
     width: 100%;
     display: flex;
 }
@@ -73,7 +71,6 @@ h1 {
     background-color: #c7c7c7;
 }
 
-
 #contents .content3 {
     width: 33.3333%;
     height: 200px;
@@ -81,25 +78,23 @@ h1 {
 }
 
 #footer .footer1 {
-    width: 20%;
-    height: 100px;
-    background-color: #b1b1b1;
-}
-
-#footer .footer2 {
     width: 80%;
 }
 
-#footer .footer2 .footer2-1 {
+#footer .footer1 .footer1-1{
+    width: 100%;
+    height: 50px;
+    background-color: #b1b1b1;
+}
+
+#footer .footer1 .footer1-2{
     width: 100%;
     height: 50px;
     background-color: #a3a3a3;
 }
 
-#footer .footer2 .footer2-2 {
-    width: 100%;
-    height: 50px;
+#footer .footer2 {
+    width: 20%;
+    height: 100px;
     background-color: #9d9d9d;
 }
-
-
