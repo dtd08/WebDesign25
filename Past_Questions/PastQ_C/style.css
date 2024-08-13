@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+    vertical-align: top;
+}
+
+
+/* wrap */
+#wrap {
+    width: 1000px;
+    display: flex;
+    position: relative;
+}
+
+
+/* aside */
+#aside {
+    width: 200px;
+    background-color: #ebe1ff;
+}
+
+#aside .logo {
+    width: 200px
+}
