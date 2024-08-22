@@ -144,4 +144,113 @@ img {
 
 #contents .notice h3 {
     background-color: #6e9bda;
+    color: #eee;
+    padding: 4px 10px;
+    margin-bottom: 10px;
+}
+
+#contents .notice li {
+    display: flex;
+    position: relative;
+    padding-left: 10px;
+    line-height: 1.6;
+}
+
+#contents .notice li::before {
+    content: '';
+    width: 6px;
+    height: 6px;
+    background-color: #6e9bba;
+    position: absolute;
+    left: 0;
+    top: 8px;
+    border-radius: 50%
+}
+
+#contents .notice li a {
+    width: 70%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#contents .notice li a:hover {
+    text-decoration: underline;
+}
+
+#contents .notice li span {
+    width: 30%;
+    text-align: right;
+}
+
+#contents .notice .more {
+    position: absolute;
+    right: 26px;
+    top: 26px;
+    color: #eee;
+}
+
+
+/* contents : gallery */
+#contents .gallery {
+    width: 100%;
+    height: 35%;
+    background-color: #c7d8f1;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+}
+
+#contents .gallery h3 {
+    background-color: #6e9bda;
+    color: #eee;
+    padding: 4px 10px;
+    margin-bottom: 10px;
+}
+
+#contents .gallery ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+#contents .gallery li {
+    width: 110px;
+    height: 150px;
+    background-size: cover;
+}
+
+#contents .gallery li:nth-child(1) {
+    background-image: url(images/gallery01.jpg);
+}
+
+#contents .gallery li:nth-child(2) {
+    background-image: url(images/gallery02.jpg);
+}
+
+#contents .gallery li:nth-child(3) {
+    background-image: url(images/gallery03.jpg);
+}
+
+#contents .gallery li a {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s;
+}
+
+#contents .gallery li a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+#contents .gallery .more {
+    position: absolute;
+    right: 26px;
+    top: 26px;
+    color: #eee;
 }
