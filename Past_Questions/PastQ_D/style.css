@@ -12,9 +12,11 @@ a {
     color: #333;
 }
 
-li { list-style: none; }
+li {
+    list-style: none;
+}
 
-img { 
+img {
     width: 100%;
     display: block;
 }
@@ -28,13 +30,13 @@ img {
 
 
 /* header */
-#header {
+#aside {
     width: 200px;
     position: relative;
 }
 
 /* header : logo */
-#header .logo {
+#aside .logo {
     font-size: 24px;
     width: 200px;
     height: 100px;
@@ -44,22 +46,22 @@ img {
 }
 
 /* header : nav */
-#header .nav {
+#aside .nav {
     width: 200px;
     height: 100%;
     background-color: #eff7a7;
 }
 
-#header .nav > ul {
+#aside .nav>ul {
     width: 100%;
     text-align: center;
 }
 
-#header .nav > ul > li {
+#aside .nav>ul>li {
     position: relative;
 }
 
-#header .nav > ul > li > a {
+#aside .nav>ul>li>a {
     display: block;
     padding: 10px 20px;
     box-sizing: border-box;
@@ -67,11 +69,11 @@ img {
     background-color: #eee;
 }
 
-#header .nav > ul > li > a:hover {
+#aside .nav>ul>li>a:hover {
     background-color: #ddd;
 }
 
-#header .nav > ul > li > ul {
+#aside .nav>ul>li>ul {
     position: absolute;
     right: -200px;
     width: 100%;
