@@ -13,7 +13,7 @@
 
         $o = new OutSider();
         // 에러 발생
-        echo $o->p;
+        echo $o->p; 
     ?>
 </body>
 </html>
